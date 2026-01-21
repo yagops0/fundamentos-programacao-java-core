@@ -30,6 +30,55 @@ public class Main {
                     resultado = num1 + num2;
                     System.out.printf("%.5f + %.5f = %.5f %n", num1, num2, resultado); // PARA MOSTRAR UM NUMERO DECIMAL COM SUAS CASAS DECIMAIS DELIMITADAS UTILIZASSE %.ALGUMNUMEROf
                     break;
+
+                case '-':
+                    System.out.println("======= SUBTRAÇÃO =======");
+                    System.out.println();
+                    System.out.println("= Digiteo primeiro número: ");
+                    num1 = scan.nextDouble();
+                    System.out.println();
+                    System.out.println("= Digite o segundo número: ");
+                    num2 = scan.nextDouble();
+                    System.out.println();
+                    System.out.println("======= RESULTADO =======");
+                    resultado = num1 - num2;
+                    System.out.printf("%.5f - %.5f = %.5f %n", num1, num2, resultado);
+                    break;
+
+                case 'x':
+                    System.out.println("======= MULTIPLICAÇÃO =======");
+                    System.out.println();
+                    System.out.println("= Digiteo primeiro número: ");
+                    num1 = scan.nextDouble();
+                    System.out.println();
+                    System.out.println("= Digite o segundo número: ");
+                    num2 = scan.nextDouble();
+                    System.out.println();
+                    System.out.println("======= RESULTADO =======");
+                    resultado = num1 * num2;
+                    System.out.printf("%.5f x %.5f = %.5f %n", num1, num2, resultado);
+                    break;
+                case '/':
+                    System.out.println("======= DIVISÃO =======");
+                    System.out.println();
+                    System.out.println("= Digite o primeiro número: ");
+                    num1 = scan.nextDouble();
+                    System.out.println();
+                    System.out.println("= Digite o segundo número: ");
+                    num2 = scan.nextDouble();
+                    System.out.println("======= RESULTADO =======");
+                    resultado = num1 / num2;
+                    System.out.printf("%.5f / %.5f = %.5f %n", num1, num2, resultado);
+                    break;
+                case '%':
+                    System.out.println("======= PORCENTAGEM =======");
+                    System.out.println("= Digite o número que deseja ver a porcentaem: ");
+                    num1 = scan.nextDouble();
+                    System.out.println("= Digite a porcentagem que quer ver: ");
+                    num2 = scan.nextDouble();
+                    System.out.println("======= RESULTADO =======");
+                    resultado = (num2 / 100) * num1;
+                    System.out.printf("%.5f%% DE %.5f é igual a %.5f %n", num2, num1, resultado);
             }
 
             scan.nextLine();
