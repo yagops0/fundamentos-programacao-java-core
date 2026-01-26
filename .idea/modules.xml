@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CalculadoraTerminal/CalculadoraTerminal.iml" filepath="$PROJECT_DIR$/CalculadoraTerminal/CalculadoraTerminal.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/FundamentosJavaCore.iml" filepath="$PROJECT_DIR$/.idea/FundamentosJavaCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SistemaControleFinanceiroPessoalCLI/SistemaControleFinanceiroPessoalCLI.iml" filepath="$PROJECT_DIR$/SistemaControleFinanceiroPessoalCLI/SistemaControleFinanceiroPessoalCLI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ValidadorSenhasSimples/ValidadorSenhasSimples.iml" filepath="$PROJECT_DIR$/ValidadorSenhasSimples/ValidadorSenhasSimples.iml" />
     </modules>
   </component>
